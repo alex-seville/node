@@ -56,7 +56,7 @@ function LocalTimezone(t) {
   var timezone = %DateLocalTimezone(t);
   timezone_cache_time = t;
   timezone_cache_timezone = timezone;
-  return timezone;
+  return timezone.toUpperCase();
 }
 
 
